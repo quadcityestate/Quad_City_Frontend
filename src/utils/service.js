@@ -312,8 +312,8 @@ export const services = [
                             para : 'The "Queen of Fragrant Rice," basmati is known for its long, slender grains that elongate further upon cooking. Its delicate aroma and subtle nutty flavor enhance any dish.',
                         },
                         {
-                            heading : "Sona Mukhi :",
-                            para : 'Also known as "golden pearl," sona mukhi rice is prized for its pearly white grains, exceptional aroma, and slightly sweet taste. It cooks to a fluffy texture, perfect for biryani and other delicacies.',
+                            heading : "Sona Masoori :",
+                            para : 'Also known as "golden pearl," sona masoori rice is prized for its pearly white grains, exceptional aroma, and slightly sweet taste. It cooks to a fluffy texture, perfect for biryani and other delicacies.',
                         },
                         {
                             para : "Choose Quad City Estate Pvt.Ltd. to embark on a journey of exquisite taste. We are your gateway to cultivating a global appreciation for the legacy of Indian rice."
