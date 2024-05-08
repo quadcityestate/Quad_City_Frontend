@@ -31,7 +31,7 @@ export const ServicesCategory = () => {
   return (
     <div className='w-full flex flex-col items-center'>
         <div className='w-[90%] text-center text-3xl p-2'>Wellcome To Our Gallery</div>
-        <div className='w-[90%] md:w-[80%] lg:w-[70%] text-justify py-5 flex flex-col gap-4'>
+        <div className='w-[90%] md:w-[80%] lg:w-[70%] py-5 flex flex-col gap-4'>
             {/* {eachCategory?.content?.companyName} */}
             {/* {console.log(eachCategory?.content?.paragraph)} */}
             {eachCategory?.content?.paragraph?.map((con,i)=>(

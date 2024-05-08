@@ -16,9 +16,9 @@ export const Services = () => {
             <div className='w-0 md:w-full border-b-[1px] border-black'></div>
         </header>
         <div className='w-[90%] md:w-[80%] flex flex-col items-center'>
-            <div className='w-full md:w-[90%] lg:w-[70%] text-justify text-xl'>
+            <div className='w-full md:w-[90%] lg:w-[70%] text-center text-xl'>
             <i className='font-semibold'>&emsp;{'"'}Quad City Estate Pvt.Ltd.{'"'}</i> is a dynamic construction and 
-            transportation company committed to delivering exceptional service across worldwide.
+            import-export company committed to delivering exceptional service across worldwide.
              We are a one-stop shop for all your infrastructure needs, specializing in both the creation
               of exceptional buildings and the seamless movement of goods.
             </div>
@@ -46,7 +46,7 @@ export const Services = () => {
                         <div className='py-2 text-3xl font-bold text-blue-700'>
                             <i>{service.title}</i>
                         </div>
-                        <div className='w-full mb-5 text-justify line-clamp-2'>
+                        <div className='w-full mb-5 line-clamp-2'>
                             <i className='text-[18px]'>{service.content1}</i>
                         </div>
                         <div className='w-full'>

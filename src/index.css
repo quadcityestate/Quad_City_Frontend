@@ -7,6 +7,11 @@ body::-webkit-scrollbar{
   display: none;
 }
 
+#Navbar .logo-name{
+  background-image: linear-gradient(60deg, #0055ff, #ff00e1);
+  background-clip: text;
+  color: transparent;
+}
 
 #main{
   background: rgb(170,186,255);
