@@ -20,7 +20,7 @@ export const Services = () => {
             <i className='font-semibold'>&emsp;{'"'}Quad City Estate Pvt.Ltd.{'"'}</i> is a dynamic construction and 
             import-export company committed to delivering exceptional service across worldwide.
              We are a one-stop shop for all your infrastructure needs, specializing in both the creation
-              of exceptional buildings and the seamless movement of goods.
+              of exceptional buildings.
             </div>
             <div className='w-full md:w-[100%] py-3 flex items-center gap-7 md:gap-0 lg:gap-0 flex-col md:flex-row md:flex-wrap md:justify-around'>
 

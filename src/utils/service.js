@@ -200,7 +200,11 @@ export const services = [
                     companyName : "",
                     paragraph : [
                         {
-                            para : "At Quad City Estate Pvt.Ltd., we connect you with the vibrant flavors of the Indian coast. We specialize in the import and export of fresh, high-quality fish sourced from the renowned fishing grounds of Digha, Puri, and the Sundarbans."
+                            para : "At Quad City Estate Pvt.Ltd., we connect you with the vibrant flavors of the Indian coast. We specialize in the import and export of fresh, high-quality fish sourced from the renowned fishing grounds of Digha, Puri, and the Sundarbans, and even the bustling harbor of Mumbai."
+                        },
+                        {
+                            heading : "Mumbai :",
+                            para : "A melting pot of flavors, Mumbai's harbor offers a bounty of seafood, from Bombay Duck to Indian Salmon and a variety of shellfish."
                         },
                         {
                             heading : "Digha :",

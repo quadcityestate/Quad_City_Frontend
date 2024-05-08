@@ -13,7 +13,7 @@ export const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center bg-[rgb(255,227,68)] shadow-md shadow-[#5d5d5d]'>
+    <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center bg-[#ffd700] shadow-md shadow-[#5d5d5d]'>
         
         <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold'>
             {/* <div className='h-full'>
