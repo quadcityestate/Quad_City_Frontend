@@ -17,7 +17,7 @@ export const Services = () => {
         </header>
         <div className='w-[90%] md:w-[80%] flex flex-col items-center'>
             <div className='w-full md:w-[90%] lg:w-[70%] text-justify text-xl'>
-            <i className='font-semibold'>&emsp;{'"'}Quad City Estate Pvt. Ltd.{'"'}</i> is a dynamic construction and 
+            <i className='font-semibold'>&emsp;{'"'}Quad City Estate Pvt.Ltd.{'"'}</i> is a dynamic construction and 
             transportation company committed to delivering exceptional service across worldwide.
              We are a one-stop shop for all your infrastructure needs, specializing in both the creation
               of exceptional buildings and the seamless movement of goods.
@@ -49,13 +49,11 @@ export const Services = () => {
                         <div className='w-full mb-5 text-justify line-clamp-2'>
                             <i className='text-[18px]'>{service.content1}</i>
                         </div>
-                        <div className='w-full'>
-                            <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md text-[#000] font-semibold text-2xl cursor-pointer'>
-                                <span>Explore</span>
-                                <Icon icon="ep:d-arrow-right" width="30" height="30"  style={{color: 'black'}} />
-                                {/* <Icon icon="ic:round-greater-than" width="32" height="32"  style={{color: 'black'}} />
-                                <Icon icon="ic:round-greater-than" width="32" height="32"  style={{color: 'black'}} /> */}
-                                </NavLink>
+                        <div className='w-[32%]'>
+                            <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md text-[#000] font-bold text-2xl cursor-pointer hover:text-green-700'>
+                                    <span>Explore</span>
+                                    <Icon icon="ep:d-arrow-right" width="30" height="30" />
+                            </NavLink>
                         </div>
                     </div>
                 ))}

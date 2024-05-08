@@ -31,8 +31,14 @@ export const ServicesCategory = () => {
   return (
     <div className='w-full flex flex-col items-center'>
         <div className='w-[90%] text-center text-3xl p-2'>Wellcome To Our Gallery</div>
-        <div className='w-[90%] md:w-[80%] lg:w-[70%] text-justify py-3'>
-            {eachCategory.content}
+        <div className='w-[90%] md:w-[80%] lg:w-[70%] text-justify py-5 flex flex-col gap-4'>
+            {/* {eachCategory?.content?.companyName} */}
+            {/* {console.log(eachCategory?.content?.paragraph)} */}
+            {eachCategory?.content?.paragraph?.map((con,i)=>(
+              // <div className='w-full flex flex-col justify-center items-center gap-5'>
+                <div><b>{con?.heading}</b>&nbsp;{con?.para}</div>
+              // </div>
+            ))}
         </div>
         <div className='w-full flex flex-wrap items-center justify-center gap-3'>
             {eachCategory?.photos?.map((category,key)=>(

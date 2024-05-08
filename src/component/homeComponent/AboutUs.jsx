@@ -13,15 +13,14 @@ export const AboutUs = () => {
         </header>
         <div className='w-[90%] lg:w-[70%] gap-y-3 flex flex-col items-center md:flex md:flex-row md:gap-x-5 lg:gap-5'>
             <div className='w-full text-justify my-5 text-[20px]'>
-            &emsp;<i className='font-semibold'>{'"'}Quad City Estate Pvt. Ltd.{'"'}</i> {'(2022)'} is a pioneering construction and transportation
+            &emsp;<i className='font-semibold'>{'"'}Quad City Estate Pvt.Ltd.{'"'}</i> {'(2022)'} is a pioneering construction and import-export
              company in India, dedicated to shaping the landscapes of tomorrow. We are a one-stop 
              solution for all your infrastructure needs,  seamlessly integrating construction 
-             expertise with reliable transportation services.Whether you envision a towering skyscraper,
-              a sprawling residential complex, or a vital transportation network,  Quad City Estate Pvt. 
-              Ltd. is here to turn your vision into reality.
+             expertise with reliable import-export services.Whether you envision a towering skyscraper,
+              a sprawling residential complex, or a vital transportation network,  Quad City Estate Pvt.Ltd. is here to turn your vision into reality.
             </div>
             <div className='w-full my-3 flex justify-center items-center'>
-                <img className='w-[90%]' src={require('../../assets/about-photo2.png')} alt="About Us" />
+                <img className='w-[90%] rounded-3xl' src={require('../../assets/about-photo2.png')} alt="About Us" />
             </div>
         </div>
     </div>

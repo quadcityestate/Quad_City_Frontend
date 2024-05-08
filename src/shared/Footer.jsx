@@ -32,9 +32,9 @@ export const Footer = () => {
                 </a></li>
                 {/* mail */}
 
-              <a className='text-[18px] flex gap-3' href="mailto:dxbqcs@gmail.com">
+              <a className='text-[18px] flex gap-3' href="mailto:quadcityestate@gmail.com">
                 <Icon icon="material-symbols:mail" width="30" height="30"  style={{color: '#fff'}} />
-                <span className='hover:text-orange-300 cursor-pointer'>dxbqcs@gmail.com</span>
+                <span className='hover:text-orange-300 cursor-pointer'>quadcityestate@gmail.com</span>
               </a>
 
                 <p className='text-[18px] flex gap-3'>
@@ -59,16 +59,18 @@ export const Footer = () => {
         </div>
       </div>
 
-        <div className='w-[90%] border-b-[1px] border-black'></div>
+        <div className='w-[90%] border-b-[1px] border-[#fff]'></div>
 
       <div className="w-[90%] flex justify-around items-center">
           {/* <h3 className="text-lg font-semibold mb-4">Connect</h3> */}
           <div className='py-5 text-[12px]'>
             &copy; 2024 QUAD CITY ESTATE PVT.LTD.
         </div>
-          <ul className="flex space-x-7">
-            <li><a href="https://www.youtube.com/" target='_blank' rel="noopener noreferrer"><Icon icon="logos:youtube-icon" width="30" height="30" /></a></li>
+          <ul className="flex space-x-5 md:space-x-10">
+            {/* <li><a href="https://www.youtube.com/" target='_blank' rel="noopener noreferrer"><Icon icon="logos:youtube-icon" width="30" height="30" /></a></li> */}
             <li><a href="https://www.facebook.com/"><Icon icon="logos:facebook" width="30" height="30" /></a></li>
+            <li><a href="https://www.instagram.com/"><Icon icon="skill-icons:instagram" width="30" height="30" /></a></li>
+            <li><a href="https://wa.me/qr/UL2OVRN3G6HGD1/"><Icon icon="logos:whatsapp-icon" width="30" height="30" /></a></li>
           </ul>
         </div>
 

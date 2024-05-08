@@ -13,9 +13,9 @@ export const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center bg-[#e9e9e9] shadow-md shadow-[#7a7a7a]'>
+    <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center bg-[#b2ffe8] shadow-md shadow-[#7a7a7a]'>
         
-        <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold text-red-600'>
+        <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold text-red-700'>
             {/* <div className='h-full'>
               <img className='h-full aspect-square' src={require('../assets/quad-city.jpg')} alt="" />
             </div> */}
@@ -26,8 +26,8 @@ export const Navbar = () => {
                 PVT. LTD.
               </span>
             </div> */}
-            <div className='h-full flex items-center'>
-              QUAD CITY ESTATE PVT. LTD.
+            <div className='h-full flex items-center font-serif'>
+              <i>QUAD CITY ESTATE PVT.LTD.</i>
             </div>
         </NavLink>
         
