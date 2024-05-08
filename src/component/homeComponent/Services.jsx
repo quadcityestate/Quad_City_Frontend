@@ -41,7 +41,7 @@ export const Services = () => {
                 {services?.map((service,j)=>(
                     <div key={j} className='h-auto w-[90%] md:w-[45%] lg:w-[45%] flex flex-col justify-around p-5 rounded-md bg-[#eaeaea] shadow-md shadow-[#999]'>
                         <div className='w-full overflow-hidden rounded-md'>
-                            <img className='w-full rounded-md cursor-pointer duration-1000 hover:scale-110' src={require(`../../assets/service/${service.cover_photo}`)} alt="coverPhoto" />
+                            <img className='w-full aspect-video rounded-md cursor-pointer duration-1000 hover:scale-110' src={require(`../../assets/service/${service.cover_photo}`)} alt="coverPhoto" />
                         </div>
                         <div className='py-2 text-3xl font-bold text-blue-700'>
                             <i>{service.title}</i>

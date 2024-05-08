@@ -53,7 +53,7 @@ export const ServicesEach = () => {
       </header>
 
         {/* content */}
-        <div className='w-[90%] md:w-[80%] lg:w-[70%] text-justify py-3'>
+        <div className='w-[90%] md:w-[80%] lg:w-[70%] text-justify text-[18px] py-3'>
             {serviceData.content2}
         </div>
 

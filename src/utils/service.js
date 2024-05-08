@@ -53,7 +53,7 @@ export const services = [
             }
         ],
         content1 : "We don't just build structures, we build futures.",
-        content2 : "",
+        content2 : "Quad City Estate Pvt. Ltd. will ensure your project is overseen by qualified and licensed civil engineers. They'll handle the design, structural analysis, and ensure compliance with local building codes. We'll integrate innovative robotics to enhance efficiency and safety. Robots can efficiently move heavy materials, reducing strain on workers. Precisely pinpoints the location (GPS) and creates a digital map for accurate planning. Analyzes soil composition and stability to ensure a solid foundation. By combining these elements, Quad City Estate Pvt. Ltd. offers a comprehensive approach to construction.  We'll leverage the expertise of certified engineers, the power of robotics, and the dedication of skilled labor to ensure your project is built on a solid foundation, in the exact location you need, while maximizing efficiency and safety.",
         photos : [
             {
                 url : "Construction/flat/flat.jpg"
@@ -102,7 +102,7 @@ export const services = [
     {
         title : 'Import-Export',
         nick_title : 'import-export',
-        punch_line : 'Wellcome To Our World Class Transpotation Services',
+        punch_line : 'Wellcome To Our World Class Import-Export Services',
         cover_photo : 'import_export/import-export-default.jpg',
         category :[
             {
@@ -255,6 +255,14 @@ export const services = [
                     {
                         name : '',
                         url : "import_export/Rice/p3.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/Rice/p4.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/Rice/p5.jpg"
                     },
                 ]
             },
