@@ -49,7 +49,7 @@ export const Services = () => {
                         <div className='w-full mb-5 text-justify line-clamp-2'>
                             <i className='text-[18px]'>{service.content1}</i>
                         </div>
-                        <div className='w-[32%]'>
+                        <div className='w-full'>
                             <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md text-[#000] font-bold text-2xl cursor-pointer hover:text-green-700'>
                                     <span>Explore</span>
                                     <Icon icon="ep:d-arrow-right" width="30" height="30" />
