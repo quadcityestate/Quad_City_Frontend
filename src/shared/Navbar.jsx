@@ -16,9 +16,9 @@ export const Navbar = () => {
     <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center bg-[#e9e9e9] shadow-md shadow-[#7a7a7a]'>
         
         <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold text-red-600'>
-            <div className='h-full'>
+            {/* <div className='h-full'>
               <img className='h-full aspect-square' src={require('../assets/quad-city.jpg')} alt="" />
-            </div>
+            </div> */}
             <div className='Site-Logo flex flex-col md:flex-row text-[25px] md:text-[20px] lg:text-[30px]'>
               <span>QUAD CITY ESTATE</span>
               <span className='w-full md:w-auto flex justify-center'>
