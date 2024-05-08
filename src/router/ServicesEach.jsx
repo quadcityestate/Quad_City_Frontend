@@ -29,7 +29,7 @@ export const ServicesEach = () => {
           return;
         }
       }
-      // navigate('/');
+      navigate('/');
   }
 
   return (
