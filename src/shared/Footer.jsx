@@ -67,8 +67,8 @@ export const Footer = () => {
             &copy; 2024 QUAD CITY ESTATE PVT.LTD.
         </div>
           <ul className="flex space-x-7">
-            <li><a href="#" target='_blank' rel="noopener noreferrer"><Icon icon="logos:youtube-icon" width="30" height="30" /></a></li>
-            <li><a href="#"><Icon icon="logos:facebook" width="30" height="30" /></a></li>
+            <li><a href="https://www.youtube.com/" target='_blank' rel="noopener noreferrer"><Icon icon="logos:youtube-icon" width="30" height="30" /></a></li>
+            <li><a href="https://www.facebook.com/"><Icon icon="logos:facebook" width="30" height="30" /></a></li>
           </ul>
         </div>
 
