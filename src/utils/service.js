@@ -112,33 +112,43 @@ export const services = [
                 cover_photo : 'import_export/vegetable/vegetables.jpg',
                 photos : [
                     {
+                        name : 'Chilli',
                         url : "import_export/vegetable/p1.jpg"
                     },
                     {
+                        name : 'Moringa',
                         url : "import_export/vegetable/p2.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p3.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p4.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p5.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p6.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p7.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p8.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p9.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/vegetable/p10.jpg"
                     },
                 ]
@@ -150,9 +160,11 @@ export const services = [
                 cover_photo : 'import_export/fruits/fruits.jpg',
                 photos : [
                     {
+                        name : '',
                         url : "import_export/fruits/p1.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/fruits/p2.jpg"
                     },
                 ]
@@ -164,21 +176,27 @@ export const services = [
                 cover_photo : 'import_export/fish/fish.jpg',
                 photos : [
                     {
+                        name : '',
                         url : "import_export/fish/p1.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/fish/p2.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/fish/p3.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/fish/p4.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/fish/p5.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/fish/p6.jpg"
                     },
                 ]
@@ -190,26 +208,75 @@ export const services = [
                 cover_photo : 'import_export/spices/spices.jpg',
                 photos : [
                     {
+                        name : '',
                         url : "import_export/spices/p1.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/spices/p2.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/spices/p3.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/spices/p4.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/spices/p5.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/spices/p6.jpg"
                     },
                     {
+                        name : '',
                         url : "import_export/spices/p7.jpg"
                     }
+                ]
+            },
+
+            {
+                title : 'Rice',
+                nick_title : 'rice',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
+                cover_photo : 'import_export/Rice/p1.jpg',
+                photos : [
+                    {
+                        name : '',
+                        url : "import_export/Rice/p1.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/Rice/p2.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/Rice/p3.jpg"
+                    },
+                ]
+            },
+
+            {
+                title : 'Pulses',
+                nick_title : 'pulses',
+                content : 'The Paragraphs module in Drupal provides editors with a component driven architecture for building pages. Morpht has been developing Paragraph approaches to site building since 2015. This case study captures some of the content from a Drupal 7 "Paragraphs Demo" site which was built to showcase what could be done with Paragraphs.',
+                cover_photo : 'import_export/Pulses/p1.jpg',
+                photos : [
+                    {
+                        name : '',
+                        url : "import_export/Pulses/p1.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/Pulses/p2.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/Pulses/p3.jpg"
+                    },
                 ]
             },
         ],

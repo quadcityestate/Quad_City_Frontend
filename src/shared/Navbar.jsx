@@ -19,12 +19,15 @@ export const Navbar = () => {
             {/* <div className='h-full'>
               <img className='h-full aspect-square' src={require('../assets/quad-city.jpg')} alt="" />
             </div> */}
-            <div className='Site-Logo flex flex-col md:flex-row text-[25px] md:text-[20px] lg:text-[30px]'>
+            {/* <div className='Site-Logo flex flex-col md:flex-row text-[25px] md:text-[20px] lg:text-[30px]'>
               <span>QUAD CITY ESTATE</span>
               <span className='w-full md:w-auto flex justify-center'>
                 <span className='w-0 md:w-auto'>&nbsp;</span>
                 PVT. LTD.
               </span>
+            </div> */}
+            <div className='h-full flex items-center'>
+              QUAD CITY ESTATE PVT. LTD.
             </div>
         </NavLink>
         

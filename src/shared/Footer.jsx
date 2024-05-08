@@ -10,34 +10,34 @@ export const Footer = () => {
             <ul className="space-y-2">
 
                 <li><a className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3' href="/#Home">
-                  <Icon icon="material-symbols:home" width="30" height="30"  style={{color: '#000'}} />
+                  <Icon icon="material-symbols:home" width="30" height="30"  style={{color: '#fff'}} />
                   <span>Home</span>
                 </a></li>
 
                 <li><a className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3' href="/#Service">
-                  <Icon icon="grommet-icons:services" width="30" height="30"  style={{color: 'black'}} />
+                  <Icon icon="grommet-icons:services" width="30" height="30"  style={{color: '#fff'}} />
                   <span>Our Services</span>
                   </a></li>
 
                 <li><a className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3' href="/#About-Us">
-                  <Icon icon="mdi:about-circle-outline" width="30" height="30"  style={{color: 'black'}} />
+                  <Icon icon="mdi:about-circle-outline" width="30" height="30"  style={{color: '#fff'}} />
                   <span>About Us</span>
                   </a></li>
             </ul>
 
             <ul className="space-y-2">
                 <li><a href="#/" className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3'>
-                    <Icon icon="mdi:location" width="30" height="30"  style={{color: 'black'}} />
+                    <Icon icon="mdi:location" width="30" height="30"  style={{color: '#fff'}} />
                     <span>Rautari Chowmatha, Nadia, WB, India, 741248</span>
                   </a></li>
                   {/* mail */}
 
                   <a className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3' href="mailto:dxbqcs@gmail.com">
-            <Icon icon="material-symbols:mail" width="30" height="30"  style={{color: 'black'}} />
+            <Icon icon="material-symbols:mail" width="30" height="30"  style={{color: '#fff'}} />
             <span>dxbqcs@gmail.com</span>
             </a>
           <p className='hover:text-[#d9d9d9] cursor-pointer text-[18px] flex gap-3'>
-            <Icon icon="material-symbols:call" width="30" height="30"  style={{color: 'black'}} />
+            <Icon icon="material-symbols:call" width="30" height="30"  style={{color: '#fff'}} />
             <span>+91 7044769955</span>
           </p>
 

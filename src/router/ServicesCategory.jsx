@@ -36,8 +36,9 @@ export const ServicesCategory = () => {
         </div>
         <div className='w-full flex flex-wrap items-center justify-center gap-3'>
             {eachCategory?.photos?.map((category,key)=>(
-                <div key={key} className='w-[45%] md:w-[25%] lg:w-[15%]'>
-                    <img className='w-full' src={require(`../assets/service/${category.url}`)} alt="" />
+                <div key={key} className='w-[45%] md:w-[25%] lg:w-[15%] aspect-square flex flex-col items-center'>
+                  <img className='w-full h-full cursor-pointer hover:scale-150' src={require(`../assets/service/${category?.url}`)} alt="" />
+                  <span>{category?.name}</span>
                 </div>
             ))}
         </div>

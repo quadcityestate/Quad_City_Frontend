@@ -81,7 +81,7 @@ export const ServicesEach = () => {
         //   </div>
         // </ReactCardFlip>
           <div key={j} className='each-category relative w-[100%] md:w-[40%] flex flex-col rounded-tr-[20%] rounded-bl-[20%] shadow-xl shadow-[#4d4d4d] bg-[#000000]'>
-                <img className='each-category-hover-img w-full aspect-video rounded-tr-[20%] rounded-bl-[20%] cursor-pointer opacity-[0.6]' src={require(`../assets/service/${item.cover_photo}`)} alt="coverPhoto" />
+                <img className='each-category-hover-img w-full aspect-video rounded-tr-[20%] rounded-bl-[20%] cursor-pointer opacity-[0.6]' src={require(`../assets/service/${item?.cover_photo}`)} alt="coverPhoto" />
                 <div className='absolute w-full h-full flex flex-col justify-center items-center text-white text-[50px] font-semibold cursor-pointer'>
                     <NavLink to={`/services/${serviceData.nick_title}/${item.nick_title}`} className='each-category-hover-border px-5'>{item.title}</NavLink>
                     <Icon icon="ic:round-minus" width="50" height="50"  style={{color: '#fff'}} />
