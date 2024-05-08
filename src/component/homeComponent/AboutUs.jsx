@@ -13,7 +13,7 @@ export const AboutUs = () => {
         </header>
         <div className='w-[90%] lg:w-[70%] gap-y-3 flex flex-col items-center md:flex md:flex-row md:gap-x-5 lg:gap-5'>
             <div className='w-full text-center my-5 text-[20px]'>
-            &emsp;<i className='font-semibold'>{'"'}Quad City Estate Pvt.Ltd.{'"'}</i> {'(2022)'} is a pioneering construction and import-export
+            &emsp;<i className='font-semibold'>{'"'}Quad City Estate Pvt.Ltd.{'"'}</i> {'(2023)'} is a pioneering construction and import-export
              company in India, dedicated to shaping the landscapes of tomorrow. We are a one-stop 
              solution for all your infrastructure needs,  seamlessly integrating construction 
              expertise with reliable import-export services.Whether you envision a towering skyscraper,
