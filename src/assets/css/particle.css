@@ -1,0 +1,16 @@
+#refresh-config {
+    bottom: 5px;
+    left: 5px;
+    position: fixed;
+  }
+
+  #tsparticles{
+    opacity: 1;
+    /* z-index: -100; */
+    /* position: inherit; */
+    
+  }
+  #root{
+    position: relative;
+    z-index: 1000;
+  }
