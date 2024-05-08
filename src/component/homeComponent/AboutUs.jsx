@@ -17,7 +17,7 @@ export const AboutUs = () => {
              company in India, dedicated to shaping the landscapes of tomorrow. We are a one-stop 
              solution for all your infrastructure needs,  seamlessly integrating construction 
              expertise with reliable import-export services.Whether you envision a towering skyscraper,
-              a sprawling residential complex, or a vital transportation network,  Quad City Estate Pvt.Ltd. is here to turn your vision into reality.
+              a sprawling residential complex, or a vital import-export network,  Quad City Estate Pvt.Ltd. is here to turn your vision into reality.
             </div>
             <div className='w-full my-3 flex justify-center items-center'>
                 <img className='w-[90%] rounded-3xl' src={require('../../assets/about-photo2.png')} alt="About Us" />
