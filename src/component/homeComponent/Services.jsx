@@ -9,7 +9,7 @@ export const Services = () => {
     <div id='Service' className='Service w-full flex flex-col items-center'>
         <header className='w-[90%] font-semibold flex justify-between items-center gap-10 mb-5'>
             <div className='w-0 md:w-full border-b-[1px] border-white'></div>
-            <div className='text-3xl flex font-serif px-5 py-2 rounded-full bg-[#000]'>
+            <div className='text-2xl flex font-serif px-5 py-2 rounded-full bg-[#73683b]'>
                 <span>Our</span>
                 <span>&nbsp;Services</span>
             </div>
@@ -43,14 +43,14 @@ export const Services = () => {
                         <div className='w-full overflow-hidden rounded-md'>
                             <img className='w-full aspect-video rounded-md cursor-pointer duration-1000 hover:scale-110' src={require(`../../assets/service/${service.cover_photo}`)} alt="coverPhoto" />
                         </div>
-                        <div className='py-2 text-3xl font-bold text-[#2e58c3]'>
+                        <div className='py-2 text-3xl font-bold text-[#576bff]'>
                             <i>{service.title}</i>
                         </div>
                         <div className='w-full mb-5 line-clamp-2 text-white'>
                             <i className='text-[18px]'>{service.content1}</i>
                         </div>
                         <div className='w-full'>
-                            <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md font-bold text-2xl cursor-pointer hover:text-[#ffeb52]'>
+                            <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md font-bold text-2xl cursor-pointer text-[#ffd325] hover:text-[#ffeb52]'>
                                     <span>Explore</span>
                                     <Icon icon="ep:d-arrow-right" width="30" height="30" />
                             </NavLink>

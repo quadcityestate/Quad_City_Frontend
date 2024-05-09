@@ -168,6 +168,14 @@ export const services = [
                         name : '',
                         url : "import_export/vegetable/p10.jpg"
                     },
+                    {
+                        name : '',
+                        url : "import_export/vegetable/p11.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/vegetable/p12.jpg"
+                    },
                 ]
             },
             {
@@ -214,14 +222,6 @@ export const services = [
                     {
                         name : '',
                         url : "import_export/fruits/p8.jpg"
-                    },
-                    {
-                        name : '',
-                        url : "import_export/fruits/p9.jpg"
-                    },
-                    {
-                        name : '',
-                        url : "import_export/fruits/p10.jpg"
                     },
                 ]
             },

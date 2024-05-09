@@ -11,7 +11,8 @@ body::-webkit-scrollbar{
   /* background: rgb(250,214,69);
   background: linear-gradient(180deg, rgba(250,214,69,1) 0%, rgba(253,250,29,1) 50%, rgba(255,192,76,1) 100%); */
 
-  background-color: rgb(0, 64, 255);
+  /* background-color: rgb(0, 64, 255); */
+  background-color: rgb(0, 0, 0);
 }
 
 /* #Navbar .logo-name{
@@ -29,9 +30,10 @@ background: linear-gradient(90deg, rgba(170,186,255,1) 0%, rgba(255,176,132,1) 5
   /* background: rgb(146,178,255);
 background: linear-gradient(180deg, rgba(146,178,255,1) 0%, rgba(255,221,92,1) 100%); */
 
-background-color: rgb(85, 97, 229);
-/* color: rgb(255, 224, 186); */
-color: gold;
+/* background-color: rgb(85, 97, 229); */
+/* color: #36454f; */
+background-color: #36454f;
+color: white;
 
 }
 
