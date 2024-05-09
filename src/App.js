@@ -28,6 +28,14 @@ function App() {
             {/* <Route path="/particle" element={<Particales />} /> */}
           </Routes>
 
+          {/* <div className="w-[100vw] h-[100vh] opacity-70">
+            
+            <img className="w-full h-full" src={require('./assets/about-photo.png')} />
+          </div> */}
+          {/* <video autoPlay loop muted playsInline className="w-[100vw] h-[100vh] bg-cover opacity-[0.3]">
+              <source className="w-full h-[100vh]" src={require('./assets/bg_clip/bg_video.mp4')} type="video/mp4" />
+            </video> */}
+
       </div>
 
       {/* Footer Section */}

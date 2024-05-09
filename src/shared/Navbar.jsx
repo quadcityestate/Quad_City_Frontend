@@ -13,12 +13,12 @@ export const Navbar = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center bg-[#ffd700] shadow-md shadow-[#5d5d5d]'>
+    <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center shadow-md shadow-[#31377a]'>
         
         <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold'>
-            {/* <div className='h-full'>
-              <img className='h-full aspect-square' src={require('../assets/quad-city.jpg')} alt="" />
-            </div> */}
+            <div className='h-full'>
+              <img className='h-full' src={require('../assets/file.png')} alt="" />
+            </div>
             {/* <div className='Site-Logo flex flex-col md:flex-row text-[25px] md:text-[20px] lg:text-[30px]'>
               <span>QUAD CITY ESTATE</span>
               <span className='w-full md:w-auto flex justify-center'>
@@ -26,36 +26,36 @@ export const Navbar = () => {
                 PVT. LTD.
               </span>
             </div> */}
-            <div className='logo-name h-full flex items-center font-serif'>
+            {/* <div className='logo-name h-full flex items-center font-serif'>
               <i>QUAD CITY ESTATE PVT.LTD.</i>
-            </div>
+            </div> */}
         </NavLink>
         
-        <ul className='nav-list w-0 overflow-hidden md:w-auto md:flex md:gap-2 lg:gap-5 items-center'>
-            <NavLink to={'/'} style={({isActive})=>({color: isActive ? "grey" : "#000",})} className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Home</NavLink>
+        <ul className='nav-list w-0 overflow-hidden md:w-auto md:flex md:gap-2 lg:gap-5 items-center text-white'>
+            <NavLink to={'/'} style={({isActive})=>({borderBottom : isActive ? "3px solid white" :"none",})} className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ffd700] border-transparent'>Home</NavLink>
             {/* <NavLink to={'/services'} style={({isActive})=>({color: isActive ? "#ff5757" : "#000",})} className='cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Our Service</NavLink> */}
             
             {location.pathname === '/'?(
-              <a href='#Service' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Our Service</a>
+              <a href='#Service' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold text-white hover:text-[#ffd700] border-transparent'>Our Service</a>
             ):(
               <NavLink to={'/#Service'}>
-                <a href='#Service' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Our Service</a>
+                <a href='#Service' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold text-white hover:text-[#ffd700] border-transparent'>Our Service</a>
               </NavLink>
             )}
 
             {location.pathname === '/'?(
-              <a href='#About-Us' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>About Us</a>
+              <a href='#About-Us' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold text-white hover:text-[#ffd700] border-transparent'>About Us</a>
             ):(
               <NavLink to={'/#About-Us'}>
-                <a href='#About-Us' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>About Us</a>
+                <a href='#About-Us' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold text-white hover:text-[#ffd700] border-transparent'>About Us</a>
               </NavLink>
             )}
 
-            <a href='#Footer' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold hover:text-[#ff5757] border-transparent'>Contact Us</a>
+            <a href='#Footer' className='px-1 py-1 cursor-pointer text-[16px] lg:text-[18px] font-semibold text-white hover:text-[#ffd700] border-transparent'>Contact Us</a>
         </ul>
 
         <div onClick={()=>setSidebarOpen(true)} className='sidebar-icon flex md:hidden text-[35px] cursor-pointer'>
-            <Icon icon="fe:bar"  style={{color: 'Black'}} />
+            <Icon icon="fe:bar"  style={{color: 'white'}} />
         </div>
         <div className="absolute">
           <Sidebar sidebarOpen={sidebarOpen} 
