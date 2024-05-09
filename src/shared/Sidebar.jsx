@@ -33,10 +33,10 @@ export const Sidebar = (props) => {
               <span>About Us</span>
             </a>
 
-            {/* <a onClick={()=>setSidebarOpen(prev=>!prev)} href='#Projects' className='flex gap-3 items-center cursor-pointer px-3 py-5 hover:bg-[#c7c7c7] rounded-md text-xl'>
-            <Icon icon="grommet-icons:projects" width="30" height="30"  style={{color: '#000'}} />
-              <span>Our Projects</span>
-            </a> */}
+            <a onClick={()=>setSidebarOpen(prev=>!prev)} href='#Footer' className='flex gap-3 items-center cursor-pointer px-3 py-5 hover:bg-[#c7c7c7] rounded-md text-xl'>
+            <Icon icon="ic:baseline-contact-phone" width="30" height="30"  style={{color: '#000'}} />
+              <span>Contact Us</span>
+            </a>
 
           </ul>
         </div>

@@ -9,7 +9,7 @@ export const Services = () => {
     <div id='Service' className='Service w-full flex flex-col items-center'>
         <header className='w-[90%] font-semibold flex justify-between items-center gap-10 mb-5'>
             <div className='w-0 md:w-full border-b-[1px] border-white'></div>
-            <div className='text-3xl flex font-serif px-5 py-2 rounded-full text-white bg-[#e085df]'>
+            <div className='text-3xl flex font-serif px-5 py-2 rounded-full text-white bg-[#ead515]'>
                 <span>Our</span>
                 <span>&nbsp;Services</span>
             </div>
@@ -43,10 +43,10 @@ export const Services = () => {
                         <div className='w-full overflow-hidden rounded-md'>
                             <img className='w-full aspect-video rounded-md cursor-pointer duration-1000 hover:scale-110' src={require(`../../assets/service/${service.cover_photo}`)} alt="coverPhoto" />
                         </div>
-                        <div className='py-2 text-3xl font-bold text-[#45fff6]'>
+                        <div className='py-2 text-3xl font-bold text-[#2e58c3]'>
                             <i>{service.title}</i>
                         </div>
-                        <div className='w-full mb-5 line-clamp-2'>
+                        <div className='w-full mb-5 line-clamp-2 text-white'>
                             <i className='text-[18px]'>{service.content1}</i>
                         </div>
                         <div className='w-full'>

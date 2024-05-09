@@ -49,7 +49,7 @@ export const ServicesEach = () => {
         <div className='text-3xl text-center flex font-serif px-5 py-5'>
           {serviceData?.punch_line}
         </div>
-        <div className='w-full md:w-full border-b-[1px] border-black'></div>
+        <div className='w-full md:w-full border-b-[1px] border-white'></div>
       </header>
 
         {/* content */}

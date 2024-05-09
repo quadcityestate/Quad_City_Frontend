@@ -191,6 +191,38 @@ export const services = [
                         name : '',
                         url : "import_export/fruits/p2.jpg"
                     },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p3.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p4.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p5.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p6.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p7.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p8.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p9.jpg"
+                    },
+                    {
+                        name : '',
+                        url : "import_export/fruits/p10.jpg"
+                    },
                 ]
             },
             {
@@ -298,7 +330,11 @@ export const services = [
                     {
                         name : '',
                         url : "import_export/spices/p7.jpg"
-                    }
+                    },
+                    {
+                        name : '',
+                        url : "import_export/spices/p8.jpg"
+                    },
                 ]
             },
 

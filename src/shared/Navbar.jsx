@@ -15,10 +15,15 @@ export const Navbar = () => {
   return (
     <div id='Navbar' className='Navbar w-full z-10 fixed top-0 h-20 p-2 flex justify-between md:justify-around items-center shadow-md shadow-[#31377a]'>
         
-        <NavLink to={'/'} className='nav-profile-name flex items-center gap-3 h-full text-2xl font-bold'>
-            <div className='h-full'>
+        <NavLink to={'/'} className='nav-profile-name flex flex-col items-center justify-center h-full font-bold'>
+            <div className='h-[70%]'>
               <img className='h-full' src={require('../assets/file.png')} alt="" />
             </div>
+            <div className='gold-gradient text-[16px] '>
+                QUAD CITY ESTATE PVT.LTD.
+            </div>
+
+
             {/* <div className='Site-Logo flex flex-col md:flex-row text-[25px] md:text-[20px] lg:text-[30px]'>
               <span>QUAD CITY ESTATE</span>
               <span className='w-full md:w-auto flex justify-center'>
