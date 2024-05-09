@@ -5,7 +5,7 @@ export const AboutUs = () => {
     <div id='About-Us' className='w-full flex flex-col items-center my-5'>
         <header className='w-[90%] text-3xl text-center py-3 font-bold flex justify-center items-center gap-10'>
             <div className='w-0 md:w-full border-b-[1px] border-white'></div>
-            <div className='text-3xl flex font-serif px-5 py-2 bg-[#ead515] text-blue-800 rounded-full'>
+            <div className='text-3xl flex font-serif px-5 py-2 bg-black text-[#ffb300] rounded-full'>
                 <span>About</span>
                 <span>&nbsp;Us</span>
             </div>

@@ -9,7 +9,7 @@ export const Services = () => {
     <div id='Service' className='Service w-full flex flex-col items-center'>
         <header className='w-[90%] font-semibold flex justify-between items-center gap-10 mb-5'>
             <div className='w-0 md:w-full border-b-[1px] border-white'></div>
-            <div className='text-3xl flex font-serif px-5 py-2 rounded-full text-blue-800 bg-[#ead515]'>
+            <div className='text-3xl flex font-serif px-5 py-2 rounded-full text-[#ffb300] bg-[#000]'>
                 <span>Our</span>
                 <span>&nbsp;Services</span>
             </div>
@@ -39,7 +39,7 @@ export const Services = () => {
                 ))} */}
 
                 {services?.map((service,j)=>(
-                    <div key={j} className='service-container h-auto w-[90%] md:w-[45%] lg:w-[45%] flex flex-col justify-around p-5 rounded-md shadow-lg shadow-[#3c3c3c]'>
+                    <div key={j} className='bg-[#000000] h-auto w-[90%] md:w-[45%] lg:w-[45%] flex flex-col justify-around p-5 rounded-md shadow-lg shadow-[#3c3c3c]'>
                         <div className='w-full overflow-hidden rounded-md'>
                             <img className='w-full aspect-video rounded-md cursor-pointer duration-1000 hover:scale-110' src={require(`../../assets/service/${service.cover_photo}`)} alt="coverPhoto" />
                         </div>
@@ -50,7 +50,7 @@ export const Services = () => {
                             <i className='text-[18px]'>{service.content1}</i>
                         </div>
                         <div className='w-full'>
-                            <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md text-[#000] font-bold text-2xl cursor-pointer hover:text-[#ffeb52]'>
+                            <NavLink to={`services/${service.nick_title}`}  className='flex items-center px-5 py-2 rounded-md font-bold text-2xl cursor-pointer hover:text-[#ffeb52]'>
                                     <span>Explore</span>
                                     <Icon icon="ep:d-arrow-right" width="30" height="30" />
                             </NavLink>
