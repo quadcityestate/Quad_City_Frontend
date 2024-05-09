@@ -9,7 +9,7 @@ export const Services = () => {
     <div id='Service' className='Service w-full flex flex-col items-center'>
         <header className='w-[90%] font-semibold flex justify-between items-center gap-10 mb-5'>
             <div className='w-0 md:w-full border-b-[1px] border-white'></div>
-            <div className='text-3xl flex font-serif px-5 py-2 rounded-full text-[#ffb300] bg-[#000]'>
+            <div className='text-3xl flex font-serif px-5 py-2 rounded-full bg-[#000]'>
                 <span>Our</span>
                 <span>&nbsp;Services</span>
             </div>
