@@ -69,7 +69,7 @@ export const Footer = () => {
           <ul className="flex space-x-5 md:space-x-10">
             {/* <li><a href="https://www.youtube.com/" target='_blank' rel="noopener noreferrer"><Icon icon="logos:youtube-icon" width="30" height="30" /></a></li> */}
             {/* <li><a href="https://www.facebook.com/"><Icon icon="logos:facebook" width="30" height="30" /></a></li> */}
-            <li><a href="https://www.instagram.com/"><Icon icon="skill-icons:instagram" width="30" height="30" /></a></li>
+            <li><a href="https://www.instagram.com/quadcity.insta?igsh=MW1pYWgxN3gwYzY1cg=="><Icon icon="skill-icons:instagram" width="30" height="30" /></a></li>
             <li><a href="https://wa.me/+917044769955/"><Icon icon="logos:whatsapp-icon" width="30" height="30" /></a></li>
           </ul>
         </div>
