@@ -35,7 +35,6 @@ function App() {
           {/* <video autoPlay loop muted playsInline className="w-[100vw] h-[100vh] bg-cover opacity-[0.3]">
               <source className="w-full h-[100vh]" src={require('./assets/bg_clip/bg_video.mp4')} type="video/mp4" />
             </video> */}
-
       </div>
 
       {/* Footer Section */}
