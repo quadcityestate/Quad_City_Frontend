@@ -61,8 +61,8 @@ export const Footer = () => {
                   style={{ color: "#fff" }}
                 />
                 <span >
-                <a href="#/" className="hover:text-orange-300 cursor-pointer " >Head Office : rautari, chowmatha, chakdaha, nadia, west bengal, pin no. 741248</a> <br />
-                <a href="#/" className="hover:text-orange-300 cursor-pointer ">Branch Office : kh no. 128/11, street no. 9, jagatpur, burari, delhi, pin no. 110084</a>
+                <a href="#/" className="hover:text-orange-300 cursor-pointer" >Rautari, Chowmatha, Chakdaha, Nadia, West Bengal, 741248</a>
+                {/* <a href="#/" className="hover:text-orange-300 cursor-pointer ">Branch Office : kh no. 128/11, street no. 9, jagatpur, burari, delhi, pin no. 110084</a> */}
                 </span>
 
               </a>
